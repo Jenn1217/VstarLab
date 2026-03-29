@@ -400,7 +400,7 @@ class ModelPool:
     _instance = None
     
     def __init__(self):
-        self.deepseek_api_key = "sk-75c082ab38ae4d22be02ff1870edf7f2"
+        self.deepseek_api_key = "sk-xxxxxxxxxxx"
         self.deepseek_base_url = "https://api.deepseek.com/v1"
         self.session = requests.Session()
         self.session.headers.update({
