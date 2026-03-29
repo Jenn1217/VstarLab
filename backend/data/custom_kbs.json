@@ -1,0 +1,79 @@
+{
+  "277f4afd-3619-4a45-8ac4-6dc8dbea7ee8": {
+    "id": "277f4afd-3619-4a45-8ac4-6dc8dbea7ee8",
+    "title": "appleu",
+    "description": "meiyou",
+    "directory": "/Users/renzhenni/Library/Mobile Documents/com~apple~CloudDocs/Paxton/2026.02.25 fintech/fintech260225/backend/knowledge/kb-new/appleu",
+    "is_system": false,
+    "coverColor": "from-pink-400 to-rose-500",
+    "visibility": "department",
+    "createdAt": 1765712833.1703
+  },
+  "bb27de55-7228-4364-aa12-cb00d3a818c9": {
+    "id": "bb27de55-7228-4364-aa12-cb00d3a818c9",
+    "title": "banana",
+    "description": "",
+    "directory": "/Users/renzhenni/Library/Mobile Documents/com~apple~CloudDocs/Paxton/2026.02.25 fintech/fintech260225/backend/knowledge/kb-new/banana",
+    "is_system": false,
+    "coverColor": "from-pink-400 to-rose-500",
+    "visibility": "public",
+    "createdAt": 1765713166.703913
+  },
+  "94b4f0fd-f11c-415a-9a1b-6c9c9b2e4385": {
+    "id": "94b4f0fd-f11c-415a-9a1b-6c9c9b2e4385",
+    "title": "lbl",
+    "description": "",
+    "directory": "/Users/renzhenni/Library/Mobile Documents/com~apple~CloudDocs/Paxton/2026.02.25 fintech/fintech260225/backend/knowledge/kb-new/lbl",
+    "is_system": false,
+    "coverColor": "from-pink-400 to-rose-500",
+    "visibility": "private",
+    "owner_id": "sz123457",
+    "createdAt": 1765869506.433293
+  },
+  "a566f046-4e80-43cf-ab4f-bc353bc83814": {
+    "id": "a566f046-4e80-43cf-ab4f-bc353bc83814",
+    "title": "李吧啦的知识库",
+    "description": "",
+    "directory": "/Users/renzhenni/Library/Mobile Documents/com~apple~CloudDocs/Paxton/2026.02.25 fintech/fintech260225/backend/knowledge/kb-new/李吧啦的知识库",
+    "is_system": false,
+    "coverColor": "from-pink-400 to-rose-500",
+    "visibility": "department",
+    "createdAt": 1765776763.6398149
+  },
+  "e55aac5b-5402-48f9-b11c-5b4753bba4a1": {
+    "id": "e55aac5b-5402-48f9-b11c-5b4753bba4a1",
+    "title": "lbl自己可见",
+    "description": "",
+    "directory": "/Users/renzhenni/Library/Mobile Documents/com~apple~CloudDocs/Paxton/2026.02.25 fintech/fintech260225/backend/knowledge/kb-new/lbl自己可见",
+    "is_system": false,
+    "coverColor": "from-pink-400 to-rose-500",
+    "visibility": "private",
+    "createdAt": 1765856930.465783
+  },
+  "7201a31a-3025-4db5-ae0e-f6caf196d6e0": {
+    "id": "7201a31a-3025-4db5-ae0e-f6caf196d6e0",
+    "title": "李吧啦的知识库",
+    "description": "仅李吧啦可见",
+    "directory": "/Users/renzhenni/Library/Mobile Documents/com~apple~CloudDocs/Paxton/2026.02.25 fintech/fintech260225/backend/knowledge/kb-new/李吧啦的知识库",
+    "is_system": false,
+    "coverColor": "from-pink-400 to-rose-500",
+    "visibility": "PRIVATE",
+    "owner_id": "sz123457",
+    "creator_id": "sz123457",
+    "creator_department": "金融科技部",
+    "createdAt": 1766046563.363355
+  },
+  "da4ba177-cb76-43ed-8a29-a142e5945b02": {
+    "id": "da4ba177-cb76-43ed-8a29-a142e5945b02",
+    "title": "李吧啦部门的知识库",
+    "description": "",
+    "directory": "/Users/renzhenni/Library/Mobile Documents/com~apple~CloudDocs/Paxton/2026.02.25 fintech/fintech260225/backend/knowledge/kb-new/李吧啦部门的知识库",
+    "is_system": false,
+    "coverColor": "from-pink-400 to-rose-500",
+    "visibility": "DEPARTMENT",
+    "owner_id": "sz123457",
+    "creator_id": "sz123457",
+    "creator_department": "金融科技部",
+    "createdAt": 1766046574.710879
+  }
+}
