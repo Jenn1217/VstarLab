@@ -50,25 +50,36 @@
 - **ORM 与驱动**：SQLAlchemy (`SessionLocal`) + PyMySQL
 
 ---
-
 ## 🚀 快速启动指南 (Getting Started)
 
 ### 1. 数据库准备 (MySQL)
 确保本地已安装运行 MySQL（端口 3306），然后创建名为 `local_fintech` 的数据库。接着导入提供的初始数据表结构及数据（包含前述 4 张表）。
 
-### 2. 后端服务启动
-进入 `backend/` 目录：
+### 2. 后端服务启动与前端界面启动
+
+我们提供了一键脚本以简化环境配置与启动流程。
+
+首先，在项目根目录下运行安装脚本，这会自动配置后端 Python 依赖和前端 NPM 依赖：
 ```bash
-cd backend
-
-# 安装后端依赖 (如果你拥有虚拟环境，推荐在虚拟环境中执行)
-pip install fastapi uvicorn sqlalchemy pymysql python-dotenv requests
-
-# 启动后端程序，默认监听 8000 端口
-uvicorn app:app --reload
+bash install.sh
 ```
-> **配置文件**：请务必然后端根目录存在 `.env` 文件，其中配置了：
+
+> **配置文件**：请务必确认后端根目录 (`backend/`) 存在 `.env` 文件，其中配置了：
 > `DATABASE_URL="mysql+pymysql://<user>:<password>@127.0.0.1:3306/local_fintech?charset=utf8mb4"`
+
+安装完成后，您可以选择以下两种模式运行项目：
+
+**开发模式 (Development Mode)**：
+前端和后端将并行启动，支持热更新（Hot Reload）。
+```bash
+bash dev.sh
+```
+
+**生产模式 (Production Mode)**：
+自动构建前端静态资源并由 FastAPI 托管，以单个服务的形式运行。
+```bash
+bash prod.sh
+```
 
 ### 3. 前端界面启动
 进入 `frontend/` 目录：
